@@ -2,6 +2,7 @@
 This is the project in c programming language to show the working of library(using concepts  in c like arrays, loops, functions etc)
 
 **Basic details**
+
 This is the project on Library Management System. It tells us the information about the books in the library. 
 
 It takes the following output from the user.
@@ -16,6 +17,7 @@ It takes the following output from the user.
 
 
 **Usage of concepts**
+
 1.Structures to store different datatypes.
 
 2.Functions
