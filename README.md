@@ -1,29 +1,105 @@
-# Library-Management-System
-This is the project in c programming language to show the working of library(using concepts  in c like arrays, loops, functions etc)
+# 📚 Library Management System using C
 
-**Basic details**
+A simple console-based application written in C that allows users to manage a small library. The program provides functionalities to add, display, and search for books, as well as track the total number of books.
 
-This is the project on Library Management System. It tells us the information about the books in the library. 
+---
 
-It takes the following output from the user.
+## 📌 Features
 
-1.Add book information.
+- 📖 Add new books to the library
+- 🧾 Display all stored book information
+- 🔍 Search and list all books by a specific author
+- 📊 Show the total count of books in the library
+- 🚪 Exit functionality to close the application
 
-2.It displays information of the book.
+---
 
-3.List of all books given by the author.
+## 🛠️ Technologies Used
 
-4.The number of books.
+- **C Programming Language**
+- Standard I/O (`stdio.h`)
+- String manipulation (`string.h`)
+- Program control and memory (`stdlib.h`)
 
+---
 
-**Usage of concepts**
+## 🧾 How to Use
 
-1.Structures to store different datatypes.
+### 1. Compile the Program
 
-2.Functions
+Use any C compiler. For example, using `gcc`:
 
-3.Loops
+```bash
+gcc -o LibraryManagement library.c
+```
 
-4.Arrays
+### 2. Run the Executable
 
-5.Switch Case ststements
+```bash
+./LibraryManagement
+```
+
+---
+
+## 🖥️ Application Menu
+
+```
+**######WELCOME TO E-LIBRARY #####
+
+1. Add book information
+2. Display book information
+3. List all books of given author
+4. List the count of books in the library
+5. Exit
+
+Enter one of the above:
+```
+
+---
+
+## 📋 Sample Output
+
+```
+Enter book name = CProgramming
+Enter author name = Dennis
+Enter pages = 250
+Enter price = 300
+
+You have entered the following information:
+book name = CProgramming  author name = Dennis  pages = 250  price = 300.000000
+```
+
+---
+
+## ⚠️ Notes
+
+- Author and book name input are limited to single words due to `scanf("%s", ...)`.
+- Book capacity is limited to 100 entries (`lib[100]`).
+- Uses a simple `struct` to hold book details (`book_name`, `author`, `pages`, `price`).
+
+---
+
+## 🚀 Future Improvements
+
+- Allow multi-word book and author names using `fgets()`.
+- Enable saving and loading from files.
+- Add support for deleting or editing book records.
+- Build a GUI using C libraries like GTK.
+
+---
+
+## 📄 License
+
+This project is open-source and free to use for learning and educational purposes.
+
+---
+
+## 🙋‍♀️ Author
+
+**K.Kavya**  
+🎓 Student, SRM University AP  
+💻 Passionate about programming and building useful tools with C and C++.
+
+---
+
+⭐ *If you find this helpful, feel free to fork or star the repo!*
