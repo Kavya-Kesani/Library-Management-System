@@ -102,4 +102,13 @@ This project is open-source and free to use for learning and educational purpose
 
 ---
 
+## 📬 Contact
+
+📧 Connect with me via Gmail: [kavyarambabu232@gmail.com](mailto:kavyarambabu232@gmail.com)  
+🔗 LinkedIn: [linkedin.com/in/kavya-kesani-700a51292](https://www.linkedin.com/in/kavya-kesani-700a51292)
+
+---
+
+---
+
 ⭐ *If you find this helpful, feel free to fork or star the repo!*
